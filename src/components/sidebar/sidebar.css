@@ -12,18 +12,31 @@
     justify-content: space-between;
     z-index: 10;
 }
+
 .nav__list{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
 }
+
 .nav__link{
     font-size: 1.5rem;
     color: var(--title-color);
     font-family: var(--font-bold);
 }
+
 .copyright{
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
     font-size: var(--small-font-size);
+}
+
+.btn__nav{
+    margin-left: 110px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
 }

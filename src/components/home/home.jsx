@@ -8,11 +8,12 @@ const Home = () => {
   return (
     <>
 
-    <div className='homepage'>
-    <img src={Myphoto} alt="my photo" className="home__page" />
+    <div className='homepage' id = "home">
+    <img src={Myphoto} alt="ok" className="home__page" />
     <h1>ROHIT SINGH</h1>
     <span className="education">A Front-End Developer</span>
     <Headersocial/>
+    <button className="contactme">contact me</button>
     </div>
     </>
   )

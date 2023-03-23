@@ -1,18 +1,20 @@
 import React from 'react';
-import"./sidebar.css"
+import "./sidebar.css"
 import Logo from "../../assets/logo.svg"
 
 const Sidebar = () => {
   return (
-    <aside className='aside'>
+    <aside className='aside' >
+      <div>
       <a href = "#home" className="nav__logo">
         <img src ={Logo} alt=""/>
       </a>
+      </div>
       <nav className="nav">
         <div className="nav__menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link">
+              <a href= "#home" className= "nav__link">
                 <i className="icon-home"></i>
               </a>
             </li>
@@ -22,7 +24,6 @@ const Sidebar = () => {
                 <i className="icon-user-following"></i>
               </a>
             </li>
-
 
             <li className="nav__item">
               <a href="#resume" className="nav__link">
@@ -54,5 +55,4 @@ const Sidebar = () => {
     </aside>
   )
 }
-
 export default Sidebar

@@ -4,7 +4,7 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
-    background-color: beige;
+    background-color: #d2b9b2;
     background-image: url(../../assets/back.jpg);
 }
 img{
@@ -17,5 +17,15 @@ img{
 .home__page{
 border: 3px black solid;
 border-radius: 50%;
+}
+.home__socials{
+display: flex;
+column-gap: 1.75rem;
+justify-content: center;
+
+}
+button{
+   margin-top: 5px;
+   box-shadow: var(--shadow);
 }
 
