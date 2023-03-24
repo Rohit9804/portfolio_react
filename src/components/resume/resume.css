@@ -25,7 +25,7 @@
 .project5,
 .project6{
     background-color: transparent;
-    filter:blur(4px);
+    filter:blur(1px);
     -o-filter:blur(4px);
     -ms-filter:blur(4px);
     -moz-filter:blur(1px);
@@ -36,7 +36,7 @@
     align-items: center;
     padding: 20px;
     text-align: center;
-    box-shadow: var(--shadow);
+    box-shadow: 20px 20px 20px 20px rgba(2, 2, 3, 0.1);
 }
 .project1:hover,
 .project2:hover,
@@ -45,6 +45,11 @@
 .project5:hover,
 .project6:hover {
     background-color: rgba(189,202,219,255);
+    filter:blur(1px);
+    -moz-filter:blur(0.5px);
+    -webkit-filter:blur(0.5px);
+    display: flex;
+    border-radius: 10px;
 }
 .para{
     margin: 20px;

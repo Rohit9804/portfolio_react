@@ -9,12 +9,13 @@
 .experiences{
     display: flex;
     margin: 40px;
+    box-shadow: 20px 20px 20px 20px rgba(2, 2, 3, 0.1);
 }
 
 .official,
 .unofficial{
     margin: 30px;
-    box-shadow: var(--shadow);
+    box-shadow:  20px 20px 20px 20px rgba(2, 2, 3, 0.1);
     padding: 20px 40px;
 }
 
