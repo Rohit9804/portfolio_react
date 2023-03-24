@@ -1,35 +1,29 @@
 .about{
     min-height: 100vh;
-    /* background-image: url(../../assets/roronoa-zoro.gif); */
-    background-color: rgba(52,46,85,255);
-    
+    background-image: url(../../assets/roronoa-zoro.gif);
+    /* background-color: rgba(52,46,85,255); */
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
    
 }
 .h1tag{
     
     font-size: 3.9vh;
-    color: #78a36b;
+    color: white;
 }
 .about__section{
     margin: 30px;
     /* background-color: #ccae98; */
-    background-color:  #78a36b;
-    filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(1px);
-    -webkit-filter:blur(1px);
+    background-color:  #78a36b transparent;
+    backdrop-filter: blur(20px);
     padding: 60px;
     border-radius: 10%;
     margin-top: 100px;
     font-size: 0.9em;
-    box-shadow: var(--shadow);
+    box-shadow:  60px 60px 60px 60px rgba(2, 2, 3, 0.1);
     text-align: center;
     
 }
@@ -40,9 +34,7 @@ margin-bottom: -10px;
 img{
     border-radius: 40%;
 }
-.about__section:hover{
-    background-color: #749ec4;
-}
+
 .h1tag{
     margin: 30px;
 }
@@ -52,13 +44,13 @@ img{
     padding: 15px;
     background-color:  #b8a097;
     border-radius: 10px;
+    backdrop-filter: blur(10px);
 }
 .social:hover{
     background-color: #883c74;
 }
-span{
-    color: #1f273c
-    ;
+.highlight{
+    color: whitesmoke;
 }
 .shapes{
     position: absolute;

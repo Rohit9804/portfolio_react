@@ -27,10 +27,11 @@ column-gap: 1.75rem;
 justify-content: center;
 
 }
-button{
+.contactme{
    box-shadow: var(--shadow);
    width: 110px;
    margin: 0 auto;
-   padding: 10px 8px;
+   padding: 8px;
+   backdrop-filter: blur(20px);
 }
 

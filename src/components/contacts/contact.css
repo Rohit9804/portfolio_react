@@ -28,14 +28,14 @@
     margin-top: 20px;
 }
 .container{
-   box-shadow: var(--shadow);
+   box-shadow: 60px 60px 60px 60px rgba(2, 2, 3, 0.1);;
    padding: 40px;
    background-color: transparent;
    filter:blur(4px);
    -o-filter:blur(4px);
    -ms-filter:blur(4px);
-   -moz-filter:blur(1px);
-   -webkit-filter:blur(1px);
+   -moz-filter:blur(1.5px);
+   -webkit-filter:blur(1.5px);
 }
 .btn-danger{
     background-color: #555964;
@@ -47,5 +47,8 @@ background-color: #b9a691;
     background-color: #b9a691;
 }
 .container:hover{
-    background-color: #39669d;
+    background-color: #39669d transparent;
+    filter:blur(1px);
+   
+   -webkit-filter:blur(1px);
 }
