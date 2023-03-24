@@ -1,6 +1,8 @@
 .resume{
     min-height: 100vh;
     background-color: antiquewhite;
+    background-image: url(https://wallpapercave.com/wp/wp5594870.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +24,12 @@
 .project4,
 .project5,
 .project6{
-    background-color: antiquewhite;
+    background-color: transparent;
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(1px);
+    -webkit-filter:blur(1px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,5 +44,8 @@
 .project4:hover,
 .project5:hover,
 .project6:hover {
-    background-color: bisque;
+    background-color: rgba(189,202,219,255);
+}
+.para{
+    margin: 20px;
 }

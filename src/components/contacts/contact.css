@@ -1,4 +1,51 @@
 .contact{
     min-height: 100vh;
     background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://media.mstdn.social/media_attachments/files/109/509/681/387/672/224/original/12d4786b38c780a8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form-label{
+    margin: 10px;
+    font-size: x-large;
+}
+.text{
+    margin: 50px;
+}
+.form-label{
+    margin: 50px;
+}
+.form-control{
+    margin: 10px;
+    background-color: #555964;
+}
+.btn-danger{
+    margin-top: 20px;
+}
+.container{
+   box-shadow: var(--shadow);
+   padding: 40px;
+   background-color: transparent;
+   filter:blur(4px);
+   -o-filter:blur(4px);
+   -ms-filter:blur(4px);
+   -moz-filter:blur(1px);
+   -webkit-filter:blur(1px);
+}
+.btn-danger{
+    background-color: #555964;
+}
+.btn-danger:hover{
+background-color: #b9a691;
+}
+.form-control:hover{
+    background-color: #b9a691;
+}
+.container:hover{
+    background-color: #39669d;
 }

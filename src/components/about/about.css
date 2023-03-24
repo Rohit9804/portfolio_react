@@ -1,17 +1,30 @@
 .about{
     min-height: 100vh;
-    /* background-image: url(https://wallpaper.dog/large/20408166.jpg); */
-    /* background-color: #d2b9b2; */
-    background-color: antiquewhite;
+    /* background-image: url(../../assets/roronoa-zoro.gif); */
+    background-color: rgba(52,46,85,255);
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
    
+}
+.h1tag{
+    
+    font-size: 3.9vh;
+    color: #78a36b;
 }
 .about__section{
     margin: 30px;
     /* background-color: #ccae98; */
-    background-color: antiquewhite;
+    background-color:  #78a36b;
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(1px);
+    -webkit-filter:blur(1px);
     padding: 60px;
     border-radius: 10%;
     margin-top: 100px;
@@ -28,7 +41,7 @@ img{
     border-radius: 40%;
 }
 .about__section:hover{
-    background-color: bisque;
+    background-color: #749ec4;
 }
 .h1tag{
     margin: 30px;
@@ -37,14 +50,20 @@ img{
     margin: auto;
     margin-top: 15px;
     padding: 15px;
-    background-color: #c0cdcb;
+    background-color:  #b8a097;
     border-radius: 10px;
 }
 .social:hover{
-    background-color: #b8a097;
+    background-color: #883c74;
 }
 span{
     color: #1f273c
     ;
+}
+.shapes{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
 }
 

@@ -9,16 +9,16 @@ const Resume = () => {
       <div className="projects">
 
         <div className="project1">
-          <h2>movie-app</h2>
-          <p>this is a basic movie app</p>
+          <h2>Movie-app</h2>
+          <p className='para'>This is a basic movie app where you can search your favourite movis</p>
           <a href="https://github.com/Rohit9804/movie-app_react" className="github__" rel="noreferrer" target="_blank">
             <button className="project1__link">github</button>
           </a>
         </div>
 
         <div className="project2 pro">
-          <h2>portfolio</h2>
-          <p>this is a basic portfolio app</p>
+          <h2>Portfolio</h2>
+          <p className='para'>This is a basic portfolio which i made using react.js</p>
           <a href="https://github.com/Rohit9804/portfolio_react" className="github2__" rel="noreferrer" target="_blank">
             <button className="project2__link">github</button>
           </a>
@@ -26,15 +26,15 @@ const Resume = () => {
 
         <div className="project3 pro">
           <h2>Restaurant-app</h2>
-          <p>this is a basic food app</p>
+          <p className='para' >This is a basic food app where you can order your fav food</p>
           <a href="https://github.com/Rohit9804/restaurant-ordering-app" className="github3__" rel="noreferrer" target="_blank">
             <button className="project3__link">github</button>
           </a>
         </div>
 
         <div className="project4 pro">
-          <h2>cards-game</h2>
-          <p>this is a basic game app</p>
+          <h2>Cards-Game</h2>
+          <p className='para' >This is a basic CARD game app</p>
           <a href="https://github.com/Rohit9804/war-game-api" className="github4__" rel="noreferrer" target="_blank">
             <button className="project4__link">github</button>
           </a>
@@ -42,7 +42,7 @@ const Resume = () => {
 
         <div className="project5">
           <h2>game-wizards</h2>
-          <p>this is a basic game for gamers</p>
+          <p className='para' >this is a basic game for gamers made with vanila js and pure css</p>
           <a href="https://github.com/Rohit9804/bluejack-game" className="github5__" rel="noreferrer" target="_blank">
             <button className="project5__link">github</button>
           </a>
@@ -50,7 +50,7 @@ const Resume = () => {
 
         <div className="project6 pro">
           <h2>chrome-extension</h2>
-          <p>this is a basic movie app</p>
+          <p className='para' >this is a chrome extension which lets you bookmark your current tab and save things </p>
           <a href="https://github.com/Rohit9804/chrome-extension" className="github__" rel="noreferrer" target="_blank">
             <button className="project1__link">github</button>
           </a>

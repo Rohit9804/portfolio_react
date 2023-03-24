@@ -1,5 +1,6 @@
 import React from 'react';
-import "./about.css"
+import "./about.css";
+
 
 const About = () => {
   return (
@@ -16,11 +17,9 @@ const About = () => {
        I have good experience in developing <span>front-end websites</span>.
       </h2>
       <h3>check my work here</h3>
-      <a href="https://github.com/Rohit9804"  target="_blank">
+      <a href="https://github.com/Rohit9804" rel="noreferrer" target="_blank">
       <button className="social">github</button>
       </a>
-      
-
      </div>
     </div>
   )
