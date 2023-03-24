@@ -1,0 +1,27 @@
+.portfolio{
+    min-height: 100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiences{
+    display: flex;
+    margin: 40px;
+}
+
+.official,
+.unofficial{
+    margin: 30px;
+    box-shadow: var(--shadow);
+    padding: 20px 40px;
+}
+
+.degree{
+    margin-bottom: 25px;
+}
+.exp{
+margin-top: 20px;
+}

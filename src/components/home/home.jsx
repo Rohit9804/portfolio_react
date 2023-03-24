@@ -13,7 +13,8 @@ const Home = () => {
     <h1>ROHIT SINGH</h1>
     <span className="education">A Front-End Developer</span>
     <Headersocial/>
-    <button className="contactme">contact me</button>
+    <a href="#contact"><button className="contactme">contact me</button></a>
+    
     </div>
     </>
   )

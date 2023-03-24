@@ -1,7 +1,8 @@
 .about{
     min-height: 100vh;
     /* background-image: url(https://wallpaper.dog/large/20408166.jpg); */
-    background-color: #d2b9b2;
+    /* background-color: #d2b9b2; */
+    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,8 @@
 }
 .about__section{
     margin: 30px;
-    background-color: #ccae98;
+    /* background-color: #ccae98; */
+    background-color: bisque;
     padding: 60px;
     border-radius: 10%;
     margin-top: 100px;
@@ -35,11 +37,11 @@ img{
     margin: auto;
     margin-top: 15px;
     padding: 15px;
-    background-color: #b8a097;
+    background-color: #c0cdcb;
     border-radius: 10px;
 }
 .social:hover{
-    background-color: #c0cdcb;
+    background-color: #b8a097;
 }
 span{
     color: #1f273c

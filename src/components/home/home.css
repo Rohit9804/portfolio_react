@@ -25,7 +25,9 @@ justify-content: center;
 
 }
 button{
-   margin-top: 5px;
    box-shadow: var(--shadow);
+   width: 110px;
+   margin: 0 auto;
+   padding: 10px 8px;
 }
 

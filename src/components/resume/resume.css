@@ -1,0 +1,33 @@
+.resume{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.projects{
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 5px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid: 10rem 10rem/ auto auto auto;
+}
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
