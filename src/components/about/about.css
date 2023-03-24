@@ -11,7 +11,7 @@
 .about__section{
     margin: 30px;
     /* background-color: #ccae98; */
-    background-color: bisque;
+    background-color: antiquewhite;
     padding: 60px;
     border-radius: 10%;
     margin-top: 100px;
@@ -28,7 +28,7 @@ img{
     border-radius: 40%;
 }
 .about__section:hover{
-    background-color: #78a36b;
+    background-color: bisque;
 }
 .h1tag{
     margin: 30px;

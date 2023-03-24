@@ -14,7 +14,7 @@
     grid-gap: 5px;
     column-gap: 20px;
     row-gap: 20px;
-    grid: 10rem 10rem/ auto auto auto;
+    grid: 15rem 15rem/ 15rem 15rem 15rem;
 }
 .project1,
 .project2,
@@ -22,7 +22,7 @@
 .project4,
 .project5,
 .project6{
-    background-color: bisque;
+    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,4 +30,12 @@
     padding: 20px;
     text-align: center;
     box-shadow: var(--shadow);
+}
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover,
+.project5:hover,
+.project6:hover {
+    background-color: bisque;
 }
