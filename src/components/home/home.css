@@ -27,7 +27,7 @@ column-gap: 1.75rem;
 justify-content: center;
 
 }
-.contactme{
+button{
    box-shadow: var(--shadow);
    width: 110px;
    margin: 0 auto;
