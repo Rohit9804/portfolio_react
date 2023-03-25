@@ -16,7 +16,8 @@ const Contact = () => {
   }
   return (
     <div className="contact" id = "contact">
-         <div className="container">
+    <div className="container">
+      <h3>Thanks For Visiting!!</h3>
       <h2 className="text">CONTACT ME</h2>
       <form onSubmit={onSubmit}>
         <div className="name_form">
@@ -37,7 +38,7 @@ const Contact = () => {
           </label>
           <textarea className="form-control" id="message" required />
         </div>
-        <button className="btn btn-danger" type="submit">
+        <button className="btn-danger" type="submit">
           {formStatus}
         </button>
       </form>

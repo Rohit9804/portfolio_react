@@ -12,19 +12,19 @@ const Portfolio = () => {
           <div className="clg">
           <h4> ~ present (2022-2026)</h4>
           <h2 >College Btech Degree</h2>
-          <h3 className='degree'>currently studying in Maharaja Agrasen Institte of Technology</h3>
+          <h3 className='degree'>Currently studying in Maharaja Agrasen Institte of Technology</h3>
           </div>
 
           <div className="school">
           <h4>  ~ 2020-2022 </h4>
           <h2 >Highschool (11th-12th)</h2>   
-          <h3 className='degree'>studied in a sarvodya vidhyalaya, civil lines, Delhi</h3>       
+          <h3 className='degree'>Studied in a Sarvodya Vidhyalaya, Civil lines, Delhi</h3>       
           </div>
 
           <div className="school">
           <h4>  ~ 2010-2020 </h4>
           <h2 > School </h2>   
-          <h3 className='degree'>studied in Rosary Sr. Sec. School, delhi</h3>       
+          <h3 className='degree'>Studied in Rosary Sr. Sec. School, Delhi</h3>       
           </div>
 
           </div>
@@ -34,7 +34,7 @@ const Portfolio = () => {
         <div className="clg">
           <h4> ~ present (MARCH - 2023) </h4>
           <h2>React.js Developer</h2>
-          <h3 className='degree' >learned react.js from free resources on youtube</h3>
+          <h3 className='degree' >Learned react.js from free resources on youtube</h3>
           </div>
 
         <div className="clg">
