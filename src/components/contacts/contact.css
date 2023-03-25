@@ -56,5 +56,11 @@ background-color: #b9a691;
     .container{
         box-shadow: 60px 60px 60px 60px rgba(0, 0, 0, 0.1);
     }
+    .contact{
+        min-height: 50vh;
+    }
+    .container{
+        padding: auto;
+    }
 
 }

@@ -11,6 +11,9 @@
     text-align: center;
     background-position-x: center;
 }
+.response{
+    display: none;
+}
 
 .projects{
     display: grid;
@@ -69,8 +72,10 @@
     filter:blur(1px);
     -moz-filter:blur(0.7px);
     -webkit-filter:blur(0.7px);
-
-}
+    }
+    .response{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 608px){
