@@ -8,11 +8,12 @@
     align-items: center;
     flex-direction: column;
     row-gap: 40px;
+    text-align: center;
+    background-position-x: center;
 }
 
 .projects{
     display: grid;
-    grid-template: repeat(auto-fit, minmax(15rem, 1fr));
     grid-gap: 5px;
     column-gap: 20px;
     row-gap: 20px;
@@ -53,4 +54,31 @@
 }
 .para{
     margin: 20px;
+}
+
+@media screen and (max-width: 942px){
+    .projects{
+        grid: 15rem 15rem 15rem/ 15rem 15rem
+    }
+    .resume{
+        min-height: 120vh;
+        background-position-x: center;
+    }
+    .project1,.project2,.project3,.project4,.project5,.project6{
+    background-color: transparent;
+    filter:blur(1px);
+    -moz-filter:blur(0.7px);
+    -webkit-filter:blur(0.7px);
+
+}
+}
+
+@media screen and (max-width: 608px){
+    .projects{
+        grid: 15rem 15rem 15rem 15rem /15rem
+    }
+    .resume{
+        min-height: 200vh;
+        background-position-x: center;
+    }
 }

@@ -8,7 +8,7 @@
     background-image: url(https://media.mstdn.social/media_attachments/files/109/509/681/387/672/224/original/12d4786b38c780a8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position-x: center;
 }
 .form-label{
     margin: 10px;
@@ -28,7 +28,7 @@
     margin-top: 20px;
 }
 .container{
-   box-shadow: 60px 60px 60px 60px rgba(2, 2, 3, 0.1);;
+   box-shadow: 60px 60px 60px 60px rgba(2, 2, 3, 0.1);
    padding: 40px;
    background-color: transparent;
    filter:blur(4px);
@@ -49,6 +49,12 @@ background-color: #b9a691;
 .container:hover{
     background-color: #39669d transparent;
     filter:blur(1px);
-   
    -webkit-filter:blur(1px);
+}
+
+@media screen and (max-width: 922px){
+    .container{
+        box-shadow: 60px 60px 60px 60px rgba(0, 0, 0, 0.1);
+    }
+
 }

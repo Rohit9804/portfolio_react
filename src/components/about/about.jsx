@@ -7,7 +7,7 @@ const About = () => {
     <div className='about' id = "about">
       <div className="about__photo">
      <h1 className='h1tag'>ABOUT ME</h1>
-     <img src= "https://i.pinimg.com/originals/f3/43/68/f34368a931299ac106b7c1f6c3484627.jpg" alt = "pic"/>
+     <img className='imgzoro' src= "https://i.pinimg.com/originals/f3/43/68/f34368a931299ac106b7c1f6c3484627.jpg" alt = "pic"/>
      </div>
      <div className="about__section">
       <h2>I am <span className='highlight'>Rohit Singh</span>, a front-end developer from Delhi, India.

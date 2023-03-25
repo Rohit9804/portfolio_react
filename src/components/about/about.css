@@ -7,7 +7,7 @@
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    background-position-x: center;
 }
 .h1tag{
     
@@ -34,7 +34,6 @@ margin-bottom: -10px;
 img{
     border-radius: 40%;
 }
-
 .h1tag{
     margin: 30px;
 }
@@ -59,3 +58,16 @@ img{
     height: 100%;
 }
 
+@media screen and (max-width: 1044px){
+    
+     .about{
+        flex-direction: column;
+        min-height: 120vh;
+     }
+     .about__section{
+        margin-top: 15px; 
+    }
+
+    
+
+}

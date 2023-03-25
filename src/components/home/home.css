@@ -9,9 +9,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     row-gap: 5px;
+    background-position-x: center;
 }
 img{
-   width: 200px;
+   width: 20vh;
     margin: 1px auto;
     margin-bottom: 0;
     max-width: 100px;
@@ -35,3 +36,15 @@ button{
    backdrop-filter: blur(20px);
 }
 
+@media screen and (max-width: 1044px){
+    img{
+        width: 15vh;
+         margin: 1px auto;
+         margin-bottom: 0;
+         max-width: 100px;
+     }
+     .homepage{
+        background-position-x: center;
+     }
+
+}

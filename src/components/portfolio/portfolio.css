@@ -4,12 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .experiences{
     display: flex;
     margin: 40px;
-    box-shadow: 20px 20px 20px 20px rgba(2, 2, 3, 0.1);
+    box-shadow: var(--shadow);
 }
 
 .official,
@@ -24,4 +25,14 @@
 }
 .exp{
 margin-top: 20px;
+}
+
+@media screen and (max-width: 922px){
+    .experiences{
+        display: block;
+        box-shadow: var(--shadow);
+    }
+    .portfolio {
+        min-height: 120vh;
+    }
 }
