@@ -13,8 +13,8 @@ const Home = () => {
     <h1>ROHIT SINGH</h1>
     <span className="education">A Front-End Developer</span>
     <Headersocial/>
-    <a href="#contact"><button className="contactme">contact me</button></a>
-    
+    <a href="#contact">
+      <button className="contactme">contact me</button></a>
     </div>
     </>
   )

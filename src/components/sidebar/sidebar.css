@@ -46,11 +46,33 @@
     background-color: var(--body-color);
     padding: 10px;
     border: 1px solid #e8dfec;
+    transition: 1s;
+}
+.aside1{
+    left: -110px;
+    position:fixed;
+    left: 0;
+    top: 0;
+    background: var(--body-color);
+    border-radius: 1x solid black;
+    padding: 2.5rem;
+    width: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+    background-color:aliceblue;
 }
 
 @media screen and (max-width: 1186px){
     .aside{
         left: -110px;
-
+    }
+    .nav__toggle-open{
+        left: 120px;
+    }
+    .nav__toggle{
+        display: flex;
     }
 }
