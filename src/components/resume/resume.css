@@ -83,7 +83,7 @@
         grid: 15rem 15rem 15rem 15rem /15rem
     }
     .resume{
-        min-height: 200vh;
+        min-height: 210vh;
         background-position-x: center;
     }
 }
