@@ -38,7 +38,7 @@ const Portfolio = () => {
           </div>
 
         <div className="clg">
-          <h4> ~ january(2023) - March(2024) </h4>
+          <h4> ~ january(2023) - March(2023) </h4>
           <h2>Front-End Developer</h2>
           <h3>learned Front-end Development from Scrimba and free resources on youtube</h3>
           </div>
