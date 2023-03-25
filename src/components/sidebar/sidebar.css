@@ -12,6 +12,7 @@
     justify-content: space-between;
     z-index: 10;
     background-color:aliceblue;
+    transition: 1s;
 }
 
 .nav__list{
@@ -63,6 +64,7 @@
     justify-content: space-between;
     z-index: 10;
     background-color:aliceblue;
+    transition: 1s;
 }
 
 @media screen and (max-width: 1186px){
