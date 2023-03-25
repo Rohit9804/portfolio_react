@@ -1,7 +1,7 @@
 .resume{
     min-height: 100vh;
     background-color: antiquewhite;
-    background-image: url(https://wallpapercave.com/wp/wp5594870.jpg);
+    background-image: url(../../assets/goku.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -68,10 +68,9 @@
         background-position-x: center;
     }
     .project1,.project2,.project3,.project4,.project5,.project6{
-    background-color: transparent;
-    filter:blur(1px);
-    -moz-filter:blur(0.7px);
-    -webkit-filter:blur(0.7px);
+        background-color:  transparent;
+    backdrop-filter: blur(10px);
+    filter:blur(0px);
     }
     .response{
         display: block;

@@ -1,7 +1,7 @@
 .about{
     min-height: 100vh;
     background-image: url(../../assets/roronoa-zoro.gif);
-    /* background-color: rgba(52,46,85,255); */
+    background-color: rgba(52,46,85,255); 
     display: flex;
     justify-content: center;
     align-items: center;

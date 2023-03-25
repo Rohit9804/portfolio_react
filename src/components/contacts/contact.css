@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(https://media.mstdn.social/media_attachments/files/109/509/681/387/672/224/original/12d4786b38c780a8.jpg);
+    background-image: url(../../assets/contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -54,13 +54,12 @@ background-color: #b9a691;
 
 @media screen and (max-width: 922px){
     .container{
-        box-shadow: 60px 60px 60px 60px rgba(0, 0, 0, 0.1);
+        box-shadow: 0;
+        filter:blur(0px);
     }
     .contact{
-        min-height: 50vh;
+        background-image: url(../../assets/charm.gif);
     }
-    .container{
-        padding: auto;
-    }
+
 
 }
