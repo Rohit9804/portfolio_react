@@ -44,7 +44,7 @@ const Resume = () => {
         <div className="project5">
           <h2>game-wizards</h2>
           <p className='para' >this is a basic game for gamers made with vanila js and pure css</p>
-          <a href="https://github.com/Rohit9804/bluejack-game" className="github5__" rel="noreferrer" target="_blank">
+          <a href="https://github.com/Rohit9804/roleplay_game" className="github5__" rel="noreferrer" target="_blank">
             <button className="project5__link">github</button>
           </a>
         </div>
