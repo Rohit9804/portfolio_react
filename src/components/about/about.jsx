@@ -17,7 +17,7 @@ const About = () => {
        I have good experience in developing <span className='highlight'>front-end websites</span>.
       </h2>
       <h3>check my work here</h3>
-      <a href="https://github.com/Rohit9804" rel="noreferrer" target="_blank">
+      <a href="https://github.com/rohit-sama" rel="noreferrer" target="_blank">
       <button className="social">github</button>
       </a>
      </div>
