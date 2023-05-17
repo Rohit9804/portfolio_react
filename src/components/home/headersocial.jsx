@@ -7,11 +7,11 @@ const Headersocial = ()  => {
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-twitter"></i>
         </a>
-        <a href="https://www.instagram.com/rohit_singh_298/" 
+        <a href="https://www.instagram.com/i._rohitsingh/" 
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://github.com/Rohit9804" 
+        <a href="https://github.com/rohit-sama" 
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-github"></i>
         </a>
