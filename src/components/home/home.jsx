@@ -5,13 +5,14 @@ import Headersocial from "./headersocial";
 
 const Home = () => {
 
+
   return (
     <>
       <div className="homepage" id="home">
         <div className="start">
         <i className="fa-solid fa-arrow-left"></i>
         <h3 className="infoMore">
-          click the links in the left section for more INFORMATION
+          click the links in the left section for more INFORMATION.
         </h3>
         </div>
         <img src={Myphoto} alt="ok" className="home__page" />
@@ -21,6 +22,7 @@ const Home = () => {
          <a href="mailto:rohit9804singh@gmail.com"  className="contactme">contact me</a>       
       </div>
     </>
+    
   );
 };
 export default Home;
