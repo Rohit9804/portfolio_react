@@ -17,7 +17,7 @@ const Headersocial = ()  => {
         </a>
         <a href="https://www.linkedin.com/in/rohit-singh-538a87249/" 
         className="home__social-link" rel="noreferrer" target= "_blank"> 
-        <i class="fa-brands fa-linkedin"></i>
+        <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href="https://discord.com/" 
         className="home__social-link" rel="noreferrer" target= "_blank">

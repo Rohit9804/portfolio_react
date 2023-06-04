@@ -47,6 +47,11 @@ button{
     background-color: #d2b9b2;
     font-size: larger;
     padding: 6px;
+    box-shadow: var(--shadow);
+    width: 110px;
+    margin: 0 auto;
+    padding: 8px;
+    backdrop-filter: blur(20px);
 }
 .infoMore{
     color: wheat;

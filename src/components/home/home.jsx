@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div className="homepage" id="home">
         <div className="start">
-        <i class="fa-solid fa-arrow-left"></i>
+        <i className="fa-solid fa-arrow-left"></i>
         <h3 className="infoMore">
           click the links in the left section for more INFORMATION
         </h3>
@@ -17,10 +17,8 @@ const Home = () => {
         <img src={Myphoto} alt="ok" className="home__page" />
         <h1 className="hello">ROHIT SINGH</h1>
         <span className="education">I Develop Web and Mobile Apps</span>
-        <Headersocial />
-        <a href="#contact">
-         <a href="mailto:rohit9804singh@gmail.com"  class="contactme">contact me</a>
-        </a>
+        <Headersocial /> 
+         <a href="mailto:rohit9804singh@gmail.com"  className="contactme">contact me</a>       
       </div>
     </>
   );
