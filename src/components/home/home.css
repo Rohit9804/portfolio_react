@@ -9,23 +9,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     row-gap: 5px;
+    border: 1px;
 }
 img{
-   width: 20vh;
+   width: 22vh;
     margin: 1px auto;
     margin-bottom: 0;
     max-width: 100px;
+    
+}
+.education{
+    font-size: x-large;
 }
 
+.hello{
+    font-size :50px;
+}
 .home__page{
-border: 3px black solid;
+border: 1px black solid;
 border-radius: 50%;
 }
 .home__socials{
 display: flex;
 column-gap: 1.75rem;
 justify-content: center;
-
+font-size: x-large;
+margin: 8px;
 }
 button{
    box-shadow: var(--shadow);
@@ -36,6 +45,18 @@ button{
 }
 .contactme{
     background-color: #d2b9b2;
+    font-size: larger;
+    padding: 6px;
+}
+.infoMore{
+    color: wheat;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1044px){
@@ -51,6 +72,16 @@ button{
 
      .education{
         color: antiquewhite;
+        font-size: large;
      }
-
+    
+     .hello{
+         font-size :30px;
+     }
+     .contactme{
+        font-size: small;
+    }
+    .start{
+        display: none;
+    }
 }

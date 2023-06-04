@@ -2,7 +2,6 @@
     position:fixed;
     left: 0;
     top: 0;
-    background: var(--body-color);
     border-radius: 1x solid black;
     padding: 2.5rem;
     width: 110px;
@@ -11,9 +10,17 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
-    background-color:aliceblue;
     transition: 1s;
+    color: white;
+    background-color: black;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
+
+.nav__logo{
+    color: white;
+    font-size: larger;
+}
+
 
 .nav__list{
     display: flex;
@@ -23,14 +30,15 @@
 
 .nav__link{
     font-size: 1.5rem;
-    color: var(--title-color);
     font-family: var(--font-bold);
+    color: aliceblue;
+    font-size: x-large;
 }
 
 .copyright{
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
-    font-size: var(--small-font-size);
+    font-size: var(--large-font-size);
 }
 
 .btn__nav{
@@ -49,12 +57,16 @@
     border: 1px solid #e8dfec;
     transition: 1s;
 }
+.top{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 .aside1{
     left: -110px;
     position:fixed;
     left: 0;
     top: 0;
-    background: var(--body-color);
     border-radius: 1x solid black;
     padding: 2.5rem;
     width: 100px;
@@ -63,9 +75,17 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
-    background-color:aliceblue;
+    color: #e8dfec;
     transition: 1s;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
+
+.nav__link:hover{
+color: aqua;
+font-size: xx-large;
+
+}
+
 
 @media screen and (max-width: 1186px){
     .aside{

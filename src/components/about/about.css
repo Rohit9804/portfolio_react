@@ -1,6 +1,6 @@
 .about{
     min-height: 100vh;
-    background-image: url(../../assets/roronoa-zoro.gif);
+    background-image: url(https://media.tenor.com/SMtD3mzDKXEAAAAC/anime-raining.gif);
     background-color: rgba(52,46,85,255); 
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@
 margin-bottom: -10px;
 }
 img{
-    border-radius: 40%;
+    border-radius: 20%;
 }
 .h1tag{
     margin: 30px;
@@ -48,8 +48,10 @@ img{
     background-color: #883c74;
 }
 .highlight{
-    color: whitesmoke;
+    color: #456b52;
+    font-weight: bolder;
 }
+
 .shapes{
     position: absolute;
     left: 0;

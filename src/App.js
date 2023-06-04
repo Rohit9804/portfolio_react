@@ -4,7 +4,7 @@ import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
 import Home from './components/home/home';
 import About from './components/about/about';
-import Contact from './components/contacts/contact';
+
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
      <About />
      <Portfolio />
      <Resume />
-     <Contact />
     </main>
     </>
   );

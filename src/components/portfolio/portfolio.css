@@ -1,9 +1,11 @@
 .portfolio{
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(49, 47, 47);
+    color: rgb(155, 142, 142);
 }
 
 .experiences{
@@ -11,7 +13,9 @@
     margin: 40px;
     box-shadow: var(--shadow);
 }
-
+.colorchange{
+    color: rgb(190, 186, 186);
+}
 .official,
 .unofficial{
     margin: 30px;
