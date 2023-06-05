@@ -33,9 +33,11 @@ margin-top: 20px;
 @media screen and (max-width: 922px){
     .experiences{
         display: block;
-        box-shadow: var(--shadow);
+        box-shadow: -0;
+        margin: 0;
     }
     .portfolio {
         min-height: 120vh;
     }
+    
 }

@@ -32,6 +32,7 @@
     font-size: 1.5rem;
     font-family: var(--font-bold);
     color: aliceblue;
+    display: flex;
     font-size: x-large;
 }
 
@@ -40,18 +41,23 @@
     writing-mode: vertical-rl;
     font-size: var(--large-font-size);
 }
+.hoverNav{
+    display: none;
+}
 
 .btn__nav{
     margin-left: 110px;
 }
 
+
+
 .nav__toggle{
     position: fixed;
     top: 1.25rem;
-    left: 1.875rem;
+    left: 1rem;
     cursor: pointer;
     height: 40px;
-    width: 45px;
+    width: 40px;
     background-color: var(--body-color);
     padding: 10px;
     border: 1px solid #e8dfec;
@@ -80,10 +86,14 @@
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
 
-.nav__link:hover{
-color: aqua;
+.nav__link:hover  {
+
 font-size: xx-large;
 
+.hoverNav{
+    display: flex;
+    margin-left: 5px;
+}
 }
 
 
