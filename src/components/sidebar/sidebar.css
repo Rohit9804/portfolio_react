@@ -107,4 +107,12 @@ font-size: xx-large;
     .nav__toggle{
         display: flex;
     }
+    .nav__link:hover  {
+
+font-size: x-large;
+
+.hoverNav{
+    display: none;
+}
+}
 }
