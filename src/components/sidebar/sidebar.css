@@ -89,11 +89,6 @@
 .nav__link:hover  {
 
 font-size: xx-large;
-
-.hoverNav{
-    display: flex;
-    margin-left: 5px;
-}
 }
 
 
@@ -111,8 +106,6 @@ font-size: xx-large;
 
 font-size: x-large;
 
-.hoverNav{
-    display: none;
-}
+
 }
 }
