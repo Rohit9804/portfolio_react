@@ -33,13 +33,13 @@ const Portfolio = () => {
         <div className="clg">
           <h4> ~ Present (june - july) 2023 </h4>
           <h2 className='colorchange'>Android (Flutter)</h2>
-          <h3 className='degree' >Learned react.js from free resources on youtube</h3>
+          <h3 className='degree' >Learned Flutter from Angela yu's cource.</h3>
           </div>
 
         <div className="clg">
           <h4> ~ (MAY) 2023 </h4>
           <h2 className='colorchange'>BACKEND + FRONTEND</h2>
-          <h3 className='degree' >Learned react.js from free resources on youtube</h3>
+          <h3 className='degree' >self-Projects learning</h3>
           </div>
 
         <div className="clg">
