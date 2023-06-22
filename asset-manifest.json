@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.13510412.css",
+    "main.css": "/static/css/main.2d96417c.css",
     "main.js": "/static/js/main.6726ba03.js",
     "static/media/goku-ultra-instinct.1920x1080.gif": "/static/media/goku-ultra-instinct.1920x1080.25afa0fffe10a7e89e7d.gif",
     "static/media/aesthetic-anime-pixelated-background-bnuuk8wf00lrrcvf.gif": "/static/media/aesthetic-anime-pixelated-background-bnuuk8wf00lrrcvf.1af23b489c517ca654a3.gif",
     "static/media/my photo.jpg": "/static/media/my photo.457bf93d3ed438502e04.jpg",
     "index.html": "/index.html",
-    "main.13510412.css.map": "/static/css/main.13510412.css.map",
+    "main.2d96417c.css.map": "/static/css/main.2d96417c.css.map",
     "main.6726ba03.js.map": "/static/js/main.6726ba03.js.map"
   },
   "entrypoints": [
-    "static/css/main.13510412.css",
+    "static/css/main.2d96417c.css",
     "static/js/main.6726ba03.js"
   ]
 }
