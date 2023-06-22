@@ -35,6 +35,7 @@ column-gap: 1.75rem;
 justify-content: center;
 font-size: x-large;
 margin: 8px;
+color: blue;
 }
 button{
    box-shadow: var(--shadow);
