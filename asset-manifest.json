@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d96417c.css",
-    "main.js": "/static/js/main.174b8f5a.js",
+    "main.css": "/static/css/main.5ea71760.css",
+    "main.js": "/static/js/main.a2d50fc2.js",
     "static/media/goku-ultra-instinct.1920x1080.gif": "/static/media/goku-ultra-instinct.1920x1080.25afa0fffe10a7e89e7d.gif",
     "static/media/aesthetic-anime-pixelated-background-bnuuk8wf00lrrcvf.gif": "/static/media/aesthetic-anime-pixelated-background-bnuuk8wf00lrrcvf.1af23b489c517ca654a3.gif",
-    "static/media/my photo.jpg": "/static/media/my photo.457bf93d3ed438502e04.jpg",
     "index.html": "/index.html",
-    "main.2d96417c.css.map": "/static/css/main.2d96417c.css.map",
-    "main.174b8f5a.js.map": "/static/js/main.174b8f5a.js.map"
+    "main.5ea71760.css.map": "/static/css/main.5ea71760.css.map",
+    "main.a2d50fc2.js.map": "/static/js/main.a2d50fc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d96417c.css",
-    "static/js/main.174b8f5a.js"
+    "static/css/main.5ea71760.css",
+    "static/js/main.a2d50fc2.js"
   ]
 }
