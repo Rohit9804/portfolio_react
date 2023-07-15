@@ -7,22 +7,14 @@ const Headersocial = ()  => {
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-twitter"></i>
         </a>
-        <a href="https://www.instagram.com/i._rohitsingh/" 
-        className="home__social-link" rel="noreferrer" target= "_blank">
-        <i className="fa-brands fa-instagram"></i>
-        </a>
         <a href="https://github.com/rohit-sama" 
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/rohit-singh-538a87249/" 
-        className="home__social-link" rel="noreferrer" target= "_blank"> 
-        <i className="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="https://discord.com/" 
+        <a href="https://discord.gg/k573fJbM" 
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-discord"></i>
-        </a>
+        </a>     
     </div>
   )
 }

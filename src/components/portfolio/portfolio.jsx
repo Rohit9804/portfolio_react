@@ -5,41 +5,27 @@ import "./portfolio.css"
 const Portfolio = () => {
   return (
     <div className="portfolio" id ="portfolio">
-      <h1 className='exp'>EXPERIENCES</h1>
+      <h1 className='exp'>What am i doing?</h1>
       <div className="experiences">
-        <div className="official">
-          
-          <div className="clg">
-          <h4> ~ present (2022-2026)</h4>
-          <h2 className='colorchange' >College Btech Degree</h2>
-          <h3 className='degree'>Currently studying in Maharaja Agrasen Institte of Technology</h3>
-          </div>
 
-          <div className="school">
-          <h4>  ~ 2020-2022 </h4>
-          <h2 className='colorchange' >Highschool (11th-12th)</h2>   
-          <h3 className='degree'>Studied in a Sarvodya Vidhyalaya, Civil lines, Delhi</h3>       
-          </div>
-
-          <div className="school">
-          <h4>  ~ 2010-2020 </h4>
-          <h2 className='colorchange' > School </h2>   
-          <h3 className='degree'>Studied in Rosary Sr. Sec. School, Delhi</h3>       
-          </div>
-
-          </div>
         <div className="unofficial">
+          
+        <div className="clg">
+          <h4> ~ Present (july - august) 2023 </h4>
+          <h2 className='colorchange'>Deep Learning</h2>
+          <h3 className='degree' >currently exploring ML.</h3>
+          </div>
 
         <div className="clg">
-          <h4> ~ Present (june - july) 2023 </h4>
+          <h4> ~ (june) 2023 </h4>
           <h2 className='colorchange'>Android (Flutter)</h2>
-          <h3 className='degree' >Learned Flutter from Angela yu's cource.</h3>
+          <h3 className='degree' >Learned Flutter from Angela yu's course.</h3>
           </div>
 
         <div className="clg">
           <h4> ~ (MAY) 2023 </h4>
           <h2 className='colorchange'>BACKEND + FRONTEND</h2>
-          <h3 className='degree' >self-Projects learning</h3>
+          <h3 className='degree' >learned while building projects</h3>
           </div>
 
         <div className="clg">

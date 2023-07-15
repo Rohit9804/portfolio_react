@@ -4,7 +4,7 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
-    background-color: #d2b9b2;
+    background-color: #d2b9b2 ;
     background-image: url(../../assets/aesthetic-anime-pixelated-background-bnuuk8wf00lrrcvf.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +54,7 @@ button{
     box-shadow: var(--shadow);
     width: 110px;
     margin: 0 auto;
+    color: black;
     padding: 8px;
     backdrop-filter: blur(20px);
 }

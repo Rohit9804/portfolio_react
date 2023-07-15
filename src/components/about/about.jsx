@@ -10,9 +10,9 @@ const About = () => {
      <img className='imgzoro' src= "https://i.redd.it/i5eqdtk854s21.jpg" alt = "pic"/>
      </div>
      <div className="about__section">
-      <h2 >I am <span className='highlight'>Rohit Singh</span>, a developer from Delhi, India.
+      <h2 >hey, I am <span className='highlight'>Rohit Singh</span>, a developer from India.
        <br></br>
-       I study at <span className='highlight'>Maharaja Agrasen Institute Of Technology</span>
+       who is currently a  <span className='highlight'>undergrad student, studying computer science</span>
        <br></br>
        I have good experience in developing <span className='highlight'> Web Apps</span>.
       </h2>

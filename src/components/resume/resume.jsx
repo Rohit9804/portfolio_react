@@ -5,7 +5,7 @@ import "./resume.css"
 const Resume = () => {
   return (
     <div className="resume" id ="resume">
-      <h1 className='someprojectstext'> These are some of my Projects</h1>
+      <h1 className='someprojectstext'> Here are some of my Projects</h1>
       <h5 className='response'>(--click to see them properly--)</h5>
       <div className="projects">
 
