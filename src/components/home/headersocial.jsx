@@ -3,7 +3,7 @@ import React from 'react'
 const Headersocial = ()  => {
   return (
     <div className="home__socials">
-        <a href="https://twitter.com/Rohitstwts" 
+        <a href="https://twitter.com/Rohitxfr" 
         className="home__social-link" rel="noreferrer" target= "_blank">
         <i className="fa-brands fa-twitter"></i>
         </a>
