@@ -14,7 +14,7 @@ const Home = () => {
           click the links in the left section for more INFORMATION.
         </h3>
         </div>
-        <img src="https://pbs.twimg.com/profile_images/1656320302379593728/_An0HOdn_400x400.jpg" alt="ok" className="home__page" />
+        <img src="https://avatars.githubusercontent.com/u/112627630?v=4" alt="ok" className="home__page" />
         <h1 className="hello">ROHIT SINGH</h1>
         <span className="education">I Develop Web and Mobile Apps</span>
         <Headersocial /> 
